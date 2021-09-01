@@ -1,0 +1,101 @@
+﻿body {
+  background-color: rgb(77, 74, 74);
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100px;
+}
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.header {
+  /* ------ */
+  height: 300px;
+  width: 100%;
+  background-color: aquamarine;
+  background-image: url(/images/bg-desktop-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myInput {
+  padding: 20px;
+  width: 25%;
+}
+#addBtn {
+  padding: 20px;
+  width: 10%;
+  font-weight: bolder;
+}
+#message {
+  color: darkred;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.chkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.label {
+  font-size: x-large;
+}
+
+.container {
+  position: relative;
+}
+.task {
+  width: 37%;
+  height: 500px;
+  background-color: rgb(216, 206, 206);
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+.td1 {
+  padding: 20px;
+  width: 72%;
+  text-align: left;
+  border-bottom: 2px solid rgb(219, 217, 217);
+  font-size: x-large;
+}
+.td2 {
+  padding: 20px;
+  width: 28%;
+  text-align: right;
+  border-bottom: 2px solid rgb(219, 217, 217);
+  font-size: x-large;
+}
+tr,
+td,
+table,
+th {
+  border: 0;
+}
+/* tr:hover {
+  background-color: #d6eeee;
+} */
+.delbutton {
+  background-color: rgb(216, 206, 206);
+  border: none;
+}
+.delete {
+  display: none;
+}
+.crossout {
+  text-decoration: line-through;
+  text-decoration-color: rgb(73, 11, 143);
+}
