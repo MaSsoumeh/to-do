@@ -24,17 +24,18 @@
          let col1 = document.createElement("td");
          let col2 = document.createElement("td");
          let delbtn = document.createElement("button");
-         delbtn.className = "delbutton";
          let newCheckBox = document.createElement('input');
          newCheckBox.type = "checkbox";
          newCheckBox.name = "tasks";
-         txtnode = document.createTextNode(" \t " + getElement);
+         let txtnode = document.createTextNode(" \t " + getElement);
          
 
          // Style elements      
          col1.className = "td1";
          col2.className = "td2";
          newCheckBox.className = "chkbox";
+         delbtn.className = "delbutton";
+
 
          // Append elements
          table.appendChild(row1);
