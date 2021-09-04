@@ -2,35 +2,26 @@
 <html>
     <head>
         <link rel="stylesheet" href="todo.css">
+        <title>ToDo List</title>
     </head>
-
     <body>
-    
-        <div id="header" class="header">
-            
-            <p> <h1 id="title" class="box">To Do List<br></h1></p>
-            
-            <section id="todo-box" class="box"> <!--To Center header elements-->
-                <h2 class="hidden">inputbox</h2>
-                <input  type="text" id="myInput" placeholder="New Task..."  required>
-                <input type="button" id="addBtn" value="Add" >
-                
-            </section>
-
-       
-            
-            
-            
+        <div class="header">
+            <header id="titleWrapper">
+                <h1>To Do List</h1>
+            </header> 
         </div>
-        <div id="container">
-            <div id="taskdiv" class="task">
-                <table id= "mainTable">
-                   
-                </table>
-            </div>
+        <div class="mainWrapper">
+                <main class="mainSection">         
+                    <input  type="text" id="myInput" placeholder="New Task..."  required>
+                    <div id="taskdiv" class="task">
+                        <table id= "mainTable">
+                         </table>
+                    </div>      
+                </main>      
         </div>
         <script src="todo.js"></script>
     </body>
+</html>
 
 
 
