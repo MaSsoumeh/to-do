@@ -1,42 +1,26 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="todo.css">
-        <title>ToDo List</title>
-    </head>
-    <body>
-        <div class="header">
-            <header id="titleWrapper">
-                <h1>To Do List</h1>
-            </header> 
-        </div>
+
+<head>
+    <link rel="stylesheet" href="todo.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <div class="headerWrapper">
+        <header>
+            <h1>To Do List</h1>
+        </header>
         <div class="mainWrapper">
-                <main class="mainSection">         
-                    <input  type="text" id="myInput" placeholder="New Task..."  required>
-                    <div id="taskdiv" class="task">
-                        <table id= "mainTable">
-                         </table>
-                    </div>      
-                </main>      
+            <main>
+                <input type="text" id="taskInput" placeholder="New Task..." required>
+                <div id="taskList">
+                </div>
+            </main>
         </div>
-        <script src="todo.js"></script>
-    </body>
-</html>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="todo.js"></script>
+</body>
 
 </html>
